@@ -14,7 +14,7 @@ connectToDb();
 app.use(
   cors({
     // origin: "http://localhost:5173",
-    origin: "https://ai-code-generater-f.vercel.app/", // deployed frontend
+    origin: "https://ai-collab-sync-real-time-collab.vercel.app/", // deployed frontend
     credentials: true,
   })
 );
